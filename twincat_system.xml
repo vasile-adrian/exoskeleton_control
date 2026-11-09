@@ -1,0 +1,9 @@
+<library path="TwinCatHardware">
+  <class name="exoskeleton_control/TwinCatSystemHardware"
+         type="exoskeleton_control::TwinCatSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Custom ros2_control hardware interface for communicating with Beckhoff TwinCAT via the ADS protocol.
+    </description>
+  </class>
+</library>
